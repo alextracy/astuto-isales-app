@@ -10,7 +10,7 @@ RUN npm install -g yarn
 # RUN dpkg -i /google-chrome-stable_current_amd64.deb; apt-get -fy install
 # RUN rm /google-chrome-stable_current_amd64.deb
 
-ENV APP_ROOT /astuto
+ENV APP_ROOT /astuto-isales-app
 RUN mkdir ${APP_ROOT}
 WORKDIR ${APP_ROOT}
 

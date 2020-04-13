@@ -22,7 +22,7 @@ services:
       - SHOW_LOGO
       - POSTS_PER_PAGE
     volumes:
-      - .:/astuto
+      - .:/astuto-isales-app
     ports:
       - "3000:3000"
     depends_on:
