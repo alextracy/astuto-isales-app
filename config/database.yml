@@ -18,10 +18,11 @@ default: &default
   adapter: postgresql
   encoding: unicode
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  host: db-postgresql-nyc1-59098
+  host: db-postgresql-nyc1-59098-do-user-6555051-0.a.db.ondigitalocean.com
   username: <%= ENV['POSTGRES_USER'] %>
   password: <%= ENV['POSTGRES_PASSWORD'] %>
   database: <%= ENV['POSTGRES_USER'] %>
+  port: 25060
 
 development:
   <<: *default
